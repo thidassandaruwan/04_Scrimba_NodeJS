@@ -1,0 +1,13 @@
+{
+  "name": "01_wild_horizons",
+  "version": "1.0.0",
+  "description": "a dataset of the planet’s most interesting places",
+  "license": "ISC",
+  "author": "Thidas",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
