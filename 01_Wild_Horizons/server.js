@@ -1,4 +1,4 @@
-import http, { get } from "node:http"
+import http from "node:http"
 // import { createServer } from "node:http"; colud directly import just he "createserver()" method as well, but it's easily recognisable when the method is associate with it's module
 import {getAllDestinations, getFilteredDestinations, getSearchedDestinations} from "./routes/destinationRoutes.js"
 import { sendJSONResponse } from "./utils/sendJSONResponse.js";
